@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_border">
+
+<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:background="?selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/erro" />
+
+    <TextView
+        android:id="@+id/tarefa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/status"
+        android:text="Tarefa" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/tarefa"
+        android:layout_marginRight="5dp"
+        android:text="Tarefa" />
+
+    <TextView
+        android:id="@+id/execucao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/nome"
+        android:layout_marginRight="5dp"
+        android:text="Execucao" />
+    </RelativeLayout>
+</RelativeLayout>

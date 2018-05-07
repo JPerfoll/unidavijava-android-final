@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_border"
+    tools:context=".principal.Arquivo.ArquivoAdapter">
+
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="?selectableItemBackground">
+        <ImageView
+            android:id="@+id/status_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="7dp"
+            android:src="@drawable/correto" />
+        <TextView
+            android:visibility="invisible"
+            android:cursorVisible="false"
+            android:enabled="false"
+            android:id="@+id/id_a"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:layout_alignBottom="@+id/status_a"
+            android:layout_toEndOf="@+id/status_a"
+            android:layout_marginRight="5dp"
+            android:text="Tarefa" />
+        <TextView
+            android:id="@+id/nome_arquivo_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/id_a"
+            android:layout_marginRight="5dp"
+            android:text="Nome Arquivo" />
+        <TextView
+            android:id="@+id/data_execucao_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/nome_arquivo_a"
+            android:layout_marginRight="5dp"
+            android:text="Data"/>
+        <TextView
+            android:id="@+id/tamanho_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/data_execucao_a"
+            android:layout_marginRight="5dp"
+            android:text="Tamanho"/>
+        <TextView
+            android:id="@+id/dia_por_extenso_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/tamanho_a"
+            android:layout_marginRight="5dp"
+            android:text="Dia"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

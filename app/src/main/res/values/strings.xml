@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BackupDB</string>
+    <string name="hint_usuario">Usuário</string>
+    <string name="hint_senha">Senha</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="botao_esqueceu_senha">Esqueceu a senha?</string>
+    <string name="message_wait">Aguarde</string>
+    <string name="error_connection">Você não tem conexão com a internet</string>
+    <string name="error_request">Você não tem permissão para acessar este serviço</string>
+    <string name="label_error_invalid_response">Resposta do servidor é inválida</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="arquivo">Arquivos</string>
+    <string name="historico">Históricos</string>
+    <string name="tab_arquivo">Arquivo</string>
+    <string name="tab_historico">Histórico</string>
+    <string name="error_exception">Houve um erro ao realizar a requisição, tente novamente!</string>
+    <string name="tarefa_iniciada">Tarefa iniciada para execução!</string>
+</resources>
